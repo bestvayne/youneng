@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>新东方青春优培行动</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="css/swiper-3.3.1.min.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script src="js/swiper-3.3.1.jquery.min.js"></script>
+		<script src="js/jquery-1.10.1.min.js"></script>
+	</head>
+
+	<body>
+		<div class="swiper-container">
+			<div class="playAudio">
+				<img onclick="playBgMusic();" id="musicImg" class="" src="img/music.png" />
+			</div>
+			<img class="tishi" src="img/arrow.png" />
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img class="bgimg p0" src="img/p_0.jpg" />
+					<img class="yiyuan pulse" src="img/p0_1.png" />
+				</div>
+				<div class="swiper-slide">
+					<div class="page p1_img">
+						<img class="logo_left logo1" src="img/logo1.png" />
+						<img class="logo_right logo1 pulse" src="img/logo2.png" />
+						<img class="bgimg p1" src="img/p_1.jpg" />
+						<img class="p1_1 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="0.5s" src="img/p1_1.png" />
+						<img class="p1_2 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="2s" src="img/p1_2.png" />
+						<img class="p1_3 ani" swiper-animate-effect="zoomInDown" swiper-animate-duration="2s" swiper-animate-delay="3s" src="img/p1_3.png" />
+						<img class="p1_4 ani" swiper-animate-effect="zoomInLeft" swiper-animate-duration="2s" swiper-animate-delay="3s" src="img/p1_4.png" />
+						<div class="dian">
+							<div class="tiao ani" swiper-animate-effect="pulse" swiper-animate-duration="1s" swiper-animate-delay="5s">
+								<img class="p1_5 ani" onclick="tiaoNex();" swiper-animate-effect="zoomInRight" swiper-animate-duration="2s" swiper-animate-delay="3s" src="img/p1_5.png" />
+							</div>
+						</div>
+						<img class="p1_6 ani" swiper-animate-effect="zoomInUp" swiper-animate-duration="2s" swiper-animate-delay="3s" src="img/p1_6.png" />
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="page p2_img">
+						<img class="logo_left logo2" src="img/logo1.png" />
+						<img class="logo_right logo2 pulse" src="img/logo2.png" />
+						<img class="bgimg p2" src="img/p_2.jpg" />
+						<img class="p2_2 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s" src="img/p2_2.png" />
+						<img class="p2_3 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="0.8s" swiper-animate-delay="1.5s" src="img/p2_1.png" />
+						<img class="p2_4 ani" swiper-animate-effect="rotateIn" swiper-animate-duration="1s" swiper-animate-delay="2.5s" src="img/p2_3.png" />
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="page p3_img">
+						<img class="logo_left logo3" src="img/logo1.png" />
+						<img class="logo_right logo3 pulse" src="img/logo2.png" />
+						<img class="bgimg p3" src="img/p_3.jpg" />
+						<img class="p3_1 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s" src="img/p3_1.png" />
+						<img class="p3_2 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="1.5s" src="img/p3_2.png" />
+						<img class="p3_3 ani" swiper-animate-effect="rotateIn" swiper-animate-duration="1s" swiper-animate-delay="2.5s" src="img/p3_3.png" />
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="page p4_img">
+						<img class="logo_left logo4" src="img/logo1.png" />
+						<img class="logo_right logo4 pulse" src="img/logo2.png" />
+						<img class="bgimg p4" src="img/p_4.jpg" />
+						<img class="p4_1 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s" src="img/p4_1.png" />
+						<img class="p4_2 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="1.5s" src="img/p4_2.png" />
+						<img class="p4_3 ani" swiper-animate-effect="rotateIn" swiper-animate-duration="1s" swiper-animate-delay="2.5s" src="img/p4_3.png" />
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="page p5_img">
+						<img class="logo_left logo5" src="img/logo1.png" />
+						<img class="logo_right logo5 pulse" src="img/logo2.png" />
+						<img class="bgimg p5" src="img/p_5.jpg" />
+						<img class="p5_1 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s" src="img/p5_1.png" />
+						<img class="p5_2 ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="1.5s" src="img/p5_2.png" />
+						<img class="p5_3 ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="2s" src="img/p5_3.png" />
+						<img class="p5_4 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="2s" src="img/p5_4.png" />
+						<img class="p5_5 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="2s" src="img/p5_5.png" />
+						<img class="p5_6 ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="3s" src="img/p5_6.png" />
+						<img class="p5_7 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="3s" src="img/p5_7.png" />
+						<img class="p5_8 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="3s" src="img/p5_8.png" />
+						<img class="p5_9 ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="4s" src="img/p5_9.png" />
+						<img class="p5_10 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="4s" src="img/p5_10.png" />
+						<img class="p5_11 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="4s" src="img/p5_11.png" />
+						<img class="p5_12 ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="5s" src="img/p5_12.png" />
+						<img class="p5_13 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="5s" src="img/p5_13.png" />
+						<img class="p5_14 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="5s" src="img/p5_14.png" />
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="page p6_img">
+						<img class="logo_left logo6" src="img/logo1.png" />
+						<img class="logo_right logo6 pulse" src="img/logo2.png" />
+						<img class="bgimg p6" src="img/p_6.jpg" />
+						<img class="p6_1 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s" src="img/p6_1.png" />
+						<img class="p6_2 ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="1.5s" src="img/p6_2.png" />
+						<img class="p6_3 ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="2s" src="img/p6_3.png" />
+						<img class="p6_4 ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="2.5s" src="img/p6_4.png" />
+						<img class="p6_5 ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="3s" src="img/p6_5.png" />
+						<img class="p6_6 ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="3.5s" src="img/p6_6.png" />
+						<img class="p6_7 ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="4s" src="img/p6_7.png" />
+						<img class="p6_8 ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="5s" src="img/p6_8.png" />
+						<img class="p6_9 ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1.5s" swiper-animate-delay="6s" src="img/p6_9.png" />
+						<img class="p6_10 ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1.5s" swiper-animate-delay="6s" src="img/p6_10.png" />
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="page p7_img">
+						<img class="logo_left logo7" src="img/logo1.png" />
+						<img class="logo_right logo7 pulse" src="img/logo2.png" />
+						<img class="bgimg p7" src="img/p_7.jpg" />
+						<img class="p7_1 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s" src="img/p7_1.png" />
+						<div class="city">
+							<div class="city_1 cityall" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="1.5s">
+								<a href="#">
+									<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#28"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="1.5s" src="img/city/anshan.png" /></a>
+								</a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#1"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="1.7s" src="img/city/beijing.png" /></a>
+							</div>
+							<div class="city_2 cityall" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="2s">
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#10"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="1.8s" src="img/city/cq.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#11"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="1.9s" src="img/city/chengdu.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#16"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="2s" src="img/city/cs.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#18"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="2.1s" src="img/city/cc.png" /></a>
+							</div>
+							<div class="city_3 cityall" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="2.5s">
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#36"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="2.2s" src="img/city/dalian.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#26"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="2.3s" src="img/city/fuzhou.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#30"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="2.4s" src="img/city/foshan.png" /></a>
+							</div>
+							<div class="city_4 cityall" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="3s">
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#3"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="2.5s" src="img/city/guangzou.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#57"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="2.6s" src="img/city/guiyang.png" /></a>
+							</div>
+							<div class="city_5 cityall" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="3.5s">
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#15"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="2.7s" src="img/city/haerbin.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#19"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="2.8s" src="img/city/hangzhou.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#25"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="2.9s" src="img/city/hf.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#54"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="3.0s" src="img/city/hhht.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#37"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="3.1s" src="img/city/hs.png" /></a>
+							</div>
+							<div class="city_6 cityall" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="4s">
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#50"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="3.2s" src="img/city/jl.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#34"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="3.3s" src="img/city/jz.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#22"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="3.4s" src="img/city/jn.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#27"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="3.5s" src="img/city/km.png" /></a>
+							</div>
+							<div class="city_7 cityall" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="4.5s">
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#40"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="3.6s" src="img/city/lz.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#53"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="3.7s" src="img/city/ly.png" /></a>
+							</div>
+							<div class="city_8 cityall" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="5s">
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#7"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="3.8s" src="img/city/nj.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#35"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="3.9s" src="img/city/nc.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#45"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="4.0s" src="img/city/nn.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#38"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="4.1s" src="img/city/nb.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#52"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="4.2s" src="img/city/nt.png" /></a>
+							</div>
+							<div class="city_9 cityall" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="5.5s">
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#2"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="4.3s" src="img/city/sh.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#9"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="4.4s" src="img/city/sy.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#8"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="4.5s" src="img/city/sz.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#24"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="4.6s" src="img/city/sjz.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#23"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="4.7s" src="img/city/sz.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#58"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="4.8s" src="img/city/shiyan.png" /></a>
+							</div>
+							<div class="city_10 cityall" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="6s">
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#44"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="4.9s" src="img/city/qd.png" /></a>
+								<a href="http://souke.xdf.cn/Search?cid=5&ccc=414&gc=0&attr=5"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="5.0s" src="img/city/tj.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#21"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="5.1s" src="img/city/ty.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#56"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="5.2s" src="img/city/ts.png" /></a>
+							</div>
+							<div class="city_11 cityall" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="6.5s">
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#4"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="5.3s" src="img/city/wh.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#32"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="5.4s" src="img/city/wx.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#55"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="5.5s" src="img/city/wlmq.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#59"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="5.6s" src="img/city/wz.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#61"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="5.7s" src="img/city/wf.png" /></a>
+							</div>
+							<div class="city_12 cityall" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="7s">
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#6"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="5.8s" src="img/city/xa.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#41"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="5.9s" src="img/city/xm.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#46"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="6.0s" src="img/city/xz.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#14"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="6.1s" src="img/city/xy.png" /></a>
+								<a href="hhttp://zhongxue.xdf.cn/zhuanti/xcy50/index.html#48"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="6.2s" src="img/city/xt.png" /></a>
+							</div>
+							<div class="city_13 cityall" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="7.5s">
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#31"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="6.3s" src="img/city/yc.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#60"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="6.4s" src="img/city/yt.png" /></a>
+							</div>
+							<div class="city_14 cityall" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="7.5s">
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#20"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="6.3s" src="img/city/dz.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#49"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="6.4s" src="img/city/zj.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#29"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="6.4s" src="img/city/zz.png" /></a>
+								<a href="http://zhongxue.xdf.cn/zhuanti/xcy50/index.html#64"><img class=" ani" swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="6.4s" src="img/city/zh.png" /></a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			Add Pagination
+			<div class="swiper-pagination"></div>
+		</div>
+		<script src="js/swiper-3.3.1.min.js"></script>
+		<script src="js/swiper.animate1.0.2.min.js"></script>
+		<script>
+			var swiper = new Swiper('.swiper-container', {
+				direction: 'vertical',
+				onInit: function(swiper) { //Swiper2.x的初始化是onFirstInit
+					swiperAnimateCache(swiper); //隐藏动画元素 
+					swiperAnimate(swiper); //初始化完成开始动画
+				},
+				onSlideChangeEnd: function(swiper) {
+					swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+				},
+				watchSlidesProgress: true,
+				onProgress: function(swiper, progress) {
+					for (var i = 0; i < swiper.slides.length; i++) {
+						var slide = swiper.slides[i];
+						es = slide.style;
+						es.webkitTransform = es.MsTransform = es.msTransform = es.MozTransform = es.OTransform = es.transform = 'rotate(' + 360 * slide.progress + 'deg)';
+					}
+				},
+								onTouchStart: function(swiper, even) {
+									$("#slideOnload").remove();
+								}
+			});
+
+			function tiaoNex() {
+				swiper.slideNext();
+			}
+			var audio = document.createElement("AUDIO");
+			//音乐地址
+			audio.setAttribute("src", "audio/bgmusic.mp3");
+			audio.setAttribute("loop", 'true');
+			audio.setAttribute("autoplay", 'autoplay');
+			audio.setAttribute("id", 'bgMusic');
+			//播放背景音乐
+			if (audio.paused) {
+					audio.play();
+					$("#musicImg").addClass("playAudiod");
+				}
+			function playBgMusic() {
+				if (audio.paused) {
+					audio.play();
+					$("#musicImg").addClass("playAudiod");
+				} else {
+					audio.pause();
+					$("#musicImg").removeClass("playAudiod");
+				}
+			}
+		</script>
+	</body>
+</html>
